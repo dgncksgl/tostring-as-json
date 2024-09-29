@@ -1,6 +1,6 @@
 # tostring-as-json
 
-
+````java
 public java.lang.String toString() {
 #if ( $members.size() > 0 )
     #set ( $i = 0 )
@@ -25,3 +25,4 @@ return "{" +
 return "{$classname}";
 #end
 }
+````
